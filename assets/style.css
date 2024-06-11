@@ -1,0 +1,168 @@
+* {
+  padding: 0;
+  margin: 0;
+  
+  
+}
+
+header{
+  /* background-color: #f5f5f5; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.box {
+ 
+  align-items: center;
+  border-radius: 8px;
+  background-color: #fff;
+  border: 2px solid #dfdfdf;
+}
+
+body {
+  /* float: auto; */
+  margin: 0 auto;
+  border: 2px solid #333;
+  width: 30%;
+  height: 1100px;
+  padding: 100px 40%;
+  background-color: #f5f5f5;
+  
+}
+  
+form{
+  border-radius: 7px;
+  margin: 0 auto;
+  text-align: center;
+  height: 40%;
+  border: 2px solid #dfdfdf;
+  }
+  
+  form img {
+    width: 300px;
+    padding: 40px 0 10px;
+    }
+    table {
+  box-sizing: border-box;
+  border-style: #dfdfdf;
+  background-color: #fff;
+  /* margin-left: 10%; */
+  padding-left: 10px;
+  
+}
+
+.login-box {
+  
+
+}
+
+table input{
+  width: 80%;
+  height: 30px;
+  padding-left: 5px;
+  margin: 5px auto;
+}
+
+button {
+  cursor: pointer;
+  width: 290px;
+  height: 29px;
+  color: #fff;
+  border-style: none;
+  margin: 20px auto;
+  border-radius: 5px;
+  background-color: rgb(28, 64, 223);
+}
+
+.or{
+  color: #7e7d7d;
+  font-weight: bold;
+  display: flex;
+  flex-basis: 100%;
+  color: rgba(0, 0, 0, 0, 35);
+  margin: 2px 0;
+  
+}
+
+.or::before{
+  content: " ";
+  flex-grow: 1;
+  margin: 0 16px;
+  background: #7e7d7d;
+  height: 1px;
+  font-size: 0;
+  line-height: 0;
+}
+
+.or::after{
+  content: " ";
+  flex-grow: 1;
+  margin: 0 16px;
+  background: #7e7d7d;
+  height: 1px;
+  font-size: 0;
+  line-height: 0;
+}
+
+p, i {
+  margin: 9px auto;
+}
+
+
+a{
+  text-decoration-line: none;
+  }
+
+.fa-brands {
+  color: rgb(69, 65, 250);
+}
+
+p.box{
+  /* display: flex; */
+  height: 50px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.down {
+  text-align: center;
+}
+
+main img {
+  width: 130px;
+}
+
+.img-br {
+ 
+}
+
+.app-store {
+  float: left;
+  width: 50%;
+}
+
+.gg-play {
+  float: right;
+  width: 50%;
+}
+
+footer {
+  float: left;
+  margin-left: 10px;  
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  
+}
+
+.dark-mode{
+  
+}
